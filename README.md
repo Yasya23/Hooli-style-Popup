@@ -15,7 +15,7 @@ Popup menu using CSS and HTML.
 -	All interactive elements are marked on hover
 -	All interactive elements have a :focus state.
 
-## **Tech Used
+## **Tech Used**
 
 -	HTML
 -	CSS
