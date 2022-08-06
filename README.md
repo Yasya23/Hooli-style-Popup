@@ -1,5 +1,7 @@
 # **Hooli-style Popup**
 
+![](/img/1.jpg)
+
 ## **Overview**
 
 Popup menu using CSS and HTML.
@@ -15,7 +17,7 @@ Popup menu using CSS and HTML.
 -	All interactive elements are marked on hover
 -	All interactive elements have a :focus state.
 
-## **Tech Used / Dependencies**
+## **Tech Used**
 
 -	HTML
 -	CSS
