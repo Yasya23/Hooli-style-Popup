@@ -10,16 +10,9 @@ $hover-color: #d9f2ff;
   padding: 0;
   list-style: none;
 }
+
 a {
   text-decoration: none;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
 }
 
 :focus {
@@ -46,8 +39,9 @@ img {
 }
 
 .navigation__popup-icon {
-  max-width: 2.5rem;
-  height: 100%;
+  display: block;
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
 }
 
@@ -104,8 +98,9 @@ img {
 }
 
 .popup__img {
-  max-width: 100%;
-  height: auto;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -127,9 +122,8 @@ img {
   display: block;
   padding: 0.3rem;
   font-weight: 400;
-  color: #000000;
-  text-align: center;
 }
+
 .popup__more-input:checked ~ .popup__more-icon {
   transform: rotate(180deg);
 }
@@ -143,16 +137,12 @@ img {
 
 @media (max-width: 23rem) {
   .popup__container {
-    display: none;
-    position: absolute;
     top: 3.2rem;
     right: -0.8rem;
     width: 16rem;
     max-height: 25rem;
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.278);
-    border-radius: 5px;
-    overflow: auto;
   }
+
   .popup__box-img {
     font-size: 0.9rem;
   }
