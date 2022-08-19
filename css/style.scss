@@ -11,8 +11,10 @@ $hover-color: #d9f2ff;
   list-style: none;
 }
 
-a {
+a,
+a:active {
   text-decoration: none;
+  color: #000000;
 }
 
 :focus {
